@@ -1,5 +1,5 @@
 "use strict";
-import acc from './data.js';
-console.log(acc);
-let i = 3;
-console.log(acc[1].month);
+import {account} from './data.js';
+// console.log(account);
+// let i = 3;
+console.log(account[10].month);
