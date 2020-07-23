@@ -1,5 +1,4 @@
 "use strict";
-// function getAccount ( ){
 
 export const account = [
     { month: 10, income: 150 },
@@ -16,9 +15,3 @@ export const account = [
     { month: 12, expense: 200 }
 ];
 
-// console.log(account[10].month);
-// return account
-// }
-// export default {
-//     getAccount
-// };
