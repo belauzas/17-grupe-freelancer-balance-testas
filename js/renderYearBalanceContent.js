@@ -21,8 +21,8 @@ function renderYearBalance(data, selector) {
         HTML += `<div class="table-row">
                     <div class="cell">${i+1}</div>
                     <div class="cell">${correctOrder[i].monthWord}</div>
-                    <div class="cell">${(correctOrder[i].income) ? correctOrder[i].income : '-'}</div>
-                    <div class="cell">${(correctOrder[i].expense) ? correctOrder[i].expense : '-'}</div>
+                    <div class="cell">${(income > 0) ? (income).toFixed(2) : '-'}</div>
+                    <div class="cell">${(expense > 0) ? (expense).toFixed(2) : '-'}</div>
                     <div class="cell">${(income-expense).toFixed(2)} Eur</div>
                 </div>`;
 
