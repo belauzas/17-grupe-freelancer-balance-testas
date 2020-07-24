@@ -1,9 +1,9 @@
 "use strict";
-import {account} from './data.js';
+import { account } from './data.js';
 
 // console.log(account[10].month);
+// console.log(account);
 
-const month=[];
 account[0].month = "Spalis";
 account[1].month = "Sausis";
 account[2].month = "Kovas";
@@ -17,6 +17,7 @@ account[9].month = "Lapkritis";
 account[10].month = "Rugpjūtis";
 account[11].month = "Gruodis";
 
+const account2 = account;
 // month[1] = account[10].month;
 // month[2] = account[10].month;
 // month[3] = account[10].month;
@@ -25,4 +26,8 @@ account[11].month = "Gruodis";
 
 // for (i=0; i<account.length; i++)
 
-console.log(account[10].month, account[5].expense,)
+// console.log(month);
+// console.log(account[10].month, account[5].expense,);
+// console.log(account2);
+
+export {account2};
