@@ -1,3 +1,6 @@
+import data from './data.js';
+import renderTableRows from './renderTableRows.js';
+
 const months = [
     'Sausis',
     'Vasaris',
@@ -12,3 +15,5 @@ const months = [
     'Lapkritis',
     'Gruodis'
 ];
+
+renderTableRows('.table-content', data, months);
