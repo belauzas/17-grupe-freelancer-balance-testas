@@ -1,5 +1,6 @@
 import data from './data.js';
 import renderTableRows from './renderTableRows.js';
+import renderTableFooter from './renderTableFooter.js';
 import renderSummary from './renderSummary.js';
 
 const months = [
@@ -18,4 +19,5 @@ const months = [
 ];
 
 renderTableRows('.table-content', data, months);
+renderTableFooter('.table-footer', data);
 renderSummary('.summary-list', data, months);
