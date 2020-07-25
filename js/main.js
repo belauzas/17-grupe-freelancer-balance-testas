@@ -1,5 +1,6 @@
 import data from './data.js';
 import renderTableRows from './renderTableRows.js';
+import renderSummary from './renderSummary.js';
 
 const months = [
     'Sausis',
@@ -17,3 +18,4 @@ const months = [
 ];
 
 renderTableRows('.table-content', data, months);
+renderSummary('.summary-list', data, months);
