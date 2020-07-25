@@ -1,5 +1,6 @@
 import account from './data.js';
 import renderTable from './renderTable.js';
+import renderTableFooter from "./renderTableFooter.js";
 
 const month = {
     1: 'sausis',
@@ -35,7 +36,6 @@ function sortDataByMoth(data) {
         dataLength--;
     } while (swapped)
 }
-console.log(data);
-
 
 renderTable(".table-content", data, month);
+renderTableFooter(".table-footer",data);

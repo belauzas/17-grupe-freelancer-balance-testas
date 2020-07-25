@@ -1,5 +1,3 @@
-
-
 function renderTable(selector, data, month) {
     const dataLength = data.length;
     const DOM = document.querySelector(selector);
