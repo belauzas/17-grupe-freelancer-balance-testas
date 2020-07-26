@@ -18,4 +18,15 @@ account.sort(function (a, b) {
   });
   console.log(account);
 
+  let suma = 0;
+  for (let i = 0; i<account.length; i++) {
+      console.log(account[i].income);
+      console.log(account[i].expense);
+      suma += (account[i].income - account[i].expense);
+  }
+ console.log(suma);  // nelabai veikia del trukstamu income ir expense lauku...
+ 
+
+
+
 export default account;
