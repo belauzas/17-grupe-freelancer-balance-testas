@@ -13,4 +13,9 @@ const account = [
     { month: 12, expense: 200 }
 ];
 
+account.sort(function (a, b) {
+    return a.month - b.month;
+  });
+  console.log(account);
+
 export default account;
