@@ -1,8 +1,8 @@
 "use strict";
-import { account } from './data.js';
+import account from './data.js';
+import renderTable from './renderTable.js';
 
-// console.log(account[10].month);
-// console.log(account);
+
 
 account[0].month = "Spalis";
 account[1].month = "Sausis";
@@ -30,4 +30,4 @@ const account2 = account;
 // console.log(account[10].month, account[5].expense,);
 // console.log(account2);
 
-export {account2};
+export default account2;

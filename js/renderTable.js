@@ -1,6 +1,22 @@
+"use strict";
+import account from './data.js';
+
+account[0].month = "Spalis";
+account[1].month = "Sausis";
+account[2].month = "Kovas";
+account[3].month = "Liepa";
+account[4].month = "Vasaris";
+account[5].month = "Gegužė";
+account[6].month = "Rugsėjis";
+account[7].month = "Balandis";
+account[8].month = "Birželis";
+account[9].month = "Lapkritis";
+account[10].month = "Rugpjūtis";
+account[11].month = "Gruodis";
+
 <div class="container">
 <div class="row">
-    <h1>Mano metai</h1>
+    <h1>Good year</h1>
 </div>
 <div class="row">
     <h2>Metų balansas</h2>
@@ -77,3 +93,5 @@
     </div>
 </div>
 </div>
+
+export default renderTables;
